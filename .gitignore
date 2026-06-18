@@ -1,0 +1,11 @@
+# Design handoff bundle (kept locally for reference, not deployed)
+llm-feedback-on-portfolio-conversion/
+
+# Vercel
+.vercel/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
