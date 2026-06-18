@@ -1,0 +1,8 @@
+# Design handoff bundle — local reference only, never deploy
+llm-feedback-on-portfolio-conversion/
+
+# Repo meta
+.git/
+.gitignore
+README.md
+node_modules/
