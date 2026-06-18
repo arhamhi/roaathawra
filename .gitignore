@@ -9,5 +9,6 @@ llm-feedback-on-portfolio-conversion/
 Thumbs.db
 *.log
 node_modules/
+.cache/
 
 .vercel

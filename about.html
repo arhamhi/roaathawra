@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About — Roaathawra</title>
+<title>About, Roaathawra</title>
 <meta name="description" content="High design meets architectural rigor. A woman-led, team-powered furniture studio making intelligently crafted, made-to-order pieces in Pakistan.">
 <meta name="theme-color" content="#1C1814">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="About — Roaathawra">
+<meta property="og:title" content="About, Roaathawra">
 <meta property="og:description" content="High design meets architectural rigor. A woman-led furniture studio crafting made-to-order pieces in Pakistan.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,7 +49,10 @@
 <!-- feature image -->
 <section class="feature">
   <div data-reveal class="feature-inner">
-    <div class="img-slot" data-slot="rt-about-hero"><span class="cap">Founder portrait / workshop photo</span></div>
+    <picture>
+      <source srcset="assets/brand/roaa-about-landscape-640.webp 640w, assets/brand/roaa-about-landscape-1200.webp 1200w" sizes="100vw" type="image/webp">
+      <img class="feature-photo" src="assets/brand/roaa-about-landscape-1200.webp" alt="Roaathawra black and white room scene" loading="eager">
+    </picture>
     <div class="feature-caption">
       <div class="q">The Revolution of Imagination.</div>
     </div>
@@ -83,7 +86,12 @@
 <!-- team -->
 <section class="team">
   <div class="team-grid">
-    <div data-reveal data-card class="zoom-wrap"><div class="img-slot" data-zoom data-slot="rt-about-team"><span class="cap">The workshop team photo</span></div></div>
+    <div data-reveal data-card class="zoom-wrap media-frame">
+      <picture>
+        <source srcset="assets/brand/roaa-room-scene-640.webp 640w, assets/brand/roaa-room-scene-1200.webp 1200w, assets/brand/roaa-room-scene-1800.webp 1800w" sizes="(max-width: 860px) 100vw, 52vw" type="image/webp">
+        <img data-zoom src="assets/brand/roaa-room-scene-1200.webp" alt="Roaathawra crafted room scene" loading="lazy">
+      </picture>
+    </div>
     <div data-reveal style="transition-delay:.14s;">
       <div class="kicker">The Backbone of the Brand</div>
       <h2>A woman-led company. A team-powered operation.</h2>
@@ -132,7 +140,7 @@
   </div>
   <div class="footer-base">
     <span>&copy; <span data-year>2026</span> Roaathawra &middot; Proudly made in Pakistan</span>
-    <span>No checkout &mdash; every piece is built to order.</span>
+    <span>No checkout, every piece is built to order.</span>
   </div>
 </footer>
 

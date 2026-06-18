@@ -6,3 +6,4 @@ llm-feedback-on-portfolio-conversion/
 .gitignore
 README.md
 node_modules/
+.cache/

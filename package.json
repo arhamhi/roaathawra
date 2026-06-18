@@ -1,0 +1,27 @@
+{
+  "name": "roaathawra-site",
+  "version": "1.0.0",
+  "description": "Marketing site for Roaathawra, made-to-order furniture, hand-built in Pakistan. No cart, no checkout: visitors order by DM on Instagram or WhatsApp.",
+  "type": "module",
+  "scripts": {
+    "import:catalog": "node scripts/import-catalog.mjs",
+    "serve": "npx serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arhamhi/roaathawra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arhamhi/roaathawra/issues"
+  },
+  "homepage": "https://github.com/arhamhi/roaathawra#readme",
+  "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "csv-parse": "^7.0.0",
+    "playwright-core": "^1.61.0",
+    "sharp": "^0.35.1"
+  }
+}
