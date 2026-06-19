@@ -60,6 +60,53 @@ function stripHtml(value) {
     .trim();
 }
 
+// Keep the rich product copy but only the safe, presentational tags the
+// product page renders inside the "Details" accordion.
+const ALLOWED_TAGS = new Set(['h2', 'h3', 'h4', 'p', 'strong', 'em', 'b', 'i', 'ul', 'ol', 'li', 'br']);
+
+function sanitizeRichHtml(value) {
+  let html = String(value || '')
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '');
+  // Drop any tag (and its attributes) that is not in the allow-list.
+  html = html.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, (match, tag) => {
+    const name = tag.toLowerCase();
+    if (!ALLOWED_TAGS.has(name)) return '';
+    return match.startsWith('</') ? `</${name}>` : `<${name}>`;
+  });
+  return html.replace(/\s+\n/g, '\n').replace(/[ \t]{2,}/g, ' ').trim();
+}
+
+// Build a "Materials + Specifications" list from Shopify standard metafield
+// columns when present (the custom.materials_and_specifications metafield was
+// not included in this export, so we only show specs we actually have).
+const SPEC_COLUMNS = [
+  ['Furniture/Fixture material (product.metafields.shopify.furniture-fixture-material)', 'Material'],
+  ['Upholstery material (product.metafields.shopify.upholstery-material)', 'Upholstery'],
+  ['Color (product.metafields.shopify.color-pattern)', 'Colour'],
+  ['Bed/Frame features (product.metafields.shopify.bed-frame-features)', 'Frame features'],
+  ['Bedding size (product.metafields.shopify.bedding-size)', 'Bedding size'],
+  ['Backrest type (product.metafields.shopify.backrest-type)', 'Backrest'],
+  ['Seat type (product.metafields.shopify.seat-type)', 'Seat type'],
+  ['Firmness (product.metafields.shopify.firmness)', 'Firmness'],
+  ['Recommended age group (product.metafields.shopify.recommended-age-group)', 'Age group'],
+];
+
+function specsFor(row) {
+  const specs = [];
+  for (const [column, label] of SPEC_COLUMNS) {
+    const raw = row[column];
+    if (!raw) continue;
+    const value = String(raw)
+      .replace(/^\["?|"?\]$/g, '')
+      .replace(/"\s*,\s*"/g, ', ')
+      .replace(/[_-]/g, ' ')
+      .trim();
+    if (value) specs.push({ label, value });
+  }
+  return specs;
+}
+
 function cleanTitle(title) {
   return String(title || '')
     .replace(/[\u2013\u2014]/g, '-')
@@ -71,20 +118,21 @@ function cleanTitle(title) {
 function formatPrice(value) {
   const numeric = Number.parseFloat(value);
   if (!Number.isFinite(numeric)) return '';
-  return `Rs ${Math.round(numeric).toLocaleString('en-US')}`;
+  return `Rs.${Math.round(numeric).toLocaleString('en-US')}.00`;
 }
 
+// Categories mirror the desktop navigation on the original store:
+// Bedroom, Living Room, Dining Room, Study & Entryway, Kids & Nursery.
 function categoriesFor(product) {
   const haystack = `${product.type} ${product.tags} ${product.title}`.toLowerCase();
   const cats = new Set();
 
-  if (/outdoor|treehouse|playhouse/.test(haystack)) cats.add('outdoor');
-  if (/kid|baby|crib|bunk|toddler|canopy/.test(haystack)) cats.add('kids');
-  if (/bedroom|bed|dresser|daybed/.test(haystack)) cats.add('bedroom');
-  if (/living|sofa|chair|bench|ottoman|loveseat|sectional/.test(haystack)) cats.add('living');
+  if (/kid|baby|crib|bunk|toddler|canopy|nursery|treehouse|playhouse/.test(haystack)) cats.add('kids');
   if (/dining/.test(haystack)) cats.add('dining');
-  if (/table|desk/.test(haystack) && !/dining/.test(haystack)) cats.add('tables');
-  if (/cabinet|console|bookshelf|storage|dresser|tv console|drawer/.test(haystack)) cats.add('storage');
+  if (/bed|dresser|daybed|wardrobe|nightstand|headboard/.test(haystack)) cats.add('bedroom');
+  if (/sofa|chair|bench|ottoman|loveseat|sectional|couch|coffee|tv\s*console|seater|stool|sofa-?bed/.test(haystack)) cats.add('living');
+  if (/desk|study|office|workstation|entryway|vanity|console|bookshelf|shelf/.test(haystack)) cats.add('study');
+  if (/table/.test(haystack) && !/dining/.test(haystack)) cats.add('study');
 
   if (!cats.size) cats.add('living');
   return [...cats];
@@ -97,6 +145,39 @@ function assetPath(value) {
 async function ensureCleanDir(dir) {
   await fs.rm(dir, { recursive: true, force: true });
   await fs.mkdir(dir, { recursive: true });
+}
+
+// Reuse already-generated media on re-runs (regenerating ~400 webp + videos is
+// slow and disk-heavy). Set REBUILD_MEDIA=1 to force a clean regeneration.
+const REUSE_MEDIA = process.env.REBUILD_MEDIA !== '1';
+
+async function fileExists(p) {
+  try { await fs.access(p); return true; } catch { return false; }
+}
+
+async function ensureDir(dir) {
+  await fs.mkdir(dir, { recursive: true });
+}
+
+// Rebuild a responsive image descriptor from already-generated webp files in
+// outDir (named `${base}-<width>.webp`). Returns null when none exist.
+async function existingResponsive(outDir, outputBase, alt) {
+  let entries;
+  try { entries = await fs.readdir(outDir); } catch { return null; }
+  const re = new RegExp(`^${outputBase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}-(\\d+)\\.webp$`);
+  const outputs = entries
+    .map((name) => { const m = name.match(re); return m ? { width: Number(m[1]), file: name } : null; })
+    .filter(Boolean)
+    .sort((a, b) => a.width - b.width)
+    .map((item) => ({ width: item.width, src: assetPath(path.relative(repoRoot, path.join(outDir, item.file))) }));
+  if (!outputs.length) return null;
+  const largest = outputs.at(-1);
+  return {
+    alt,
+    src: largest.src,
+    srcset: outputs.map((item) => `${item.src} ${item.width}w`).join(', '),
+    width: largest.width,
+  };
 }
 
 async function localImageMap() {
@@ -155,11 +236,13 @@ async function convertProductImage(inputPath, productDir, handle, position, alt)
   for (const width of availableWidths) {
     const filename = `${outputBase}-${width}.webp`;
     const fullPath = path.join(productDir, filename);
-    await sharp(inputPath)
-      .rotate()
-      .resize({ width, withoutEnlargement: true })
-      .webp({ quality: 78, effort: 5 })
-      .toFile(fullPath);
+    if (!(REUSE_MEDIA && await fileExists(fullPath))) {
+      await sharp(inputPath)
+        .rotate()
+        .resize({ width, withoutEnlargement: true })
+        .webp({ quality: 82, effort: 5 })
+        .toFile(fullPath);
+    }
     outputs.push({
       width,
       src: assetPath(path.relative(repoRoot, fullPath)),
@@ -176,6 +259,11 @@ async function convertProductImage(inputPath, productDir, handle, position, alt)
 }
 
 async function convertResponsiveImage(inputPath, outDir, outputBase, alt) {
+  if (REUSE_MEDIA && !(await fileExists(inputPath))) {
+    const existing = await existingResponsive(outDir, outputBase, alt);
+    if (existing) return existing;
+    throw new Error(`Missing source and no generated output for ${outputBase}: ${inputPath}`);
+  }
   const metadata = await sharp(inputPath).metadata();
   const availableWidths = widths.filter((width) => !metadata.width || width <= metadata.width);
   if (!availableWidths.length) availableWidths.push(metadata.width || 640);
@@ -184,11 +272,13 @@ async function convertResponsiveImage(inputPath, outDir, outputBase, alt) {
   for (const width of availableWidths) {
     const filename = `${outputBase}-${width}.webp`;
     const fullPath = path.join(outDir, filename);
-    await sharp(inputPath)
-      .rotate()
-      .resize({ width, withoutEnlargement: true })
-      .webp({ quality: 78, effort: 5 })
-      .toFile(fullPath);
+    if (!(REUSE_MEDIA && await fileExists(fullPath))) {
+      await sharp(inputPath)
+        .rotate()
+        .resize({ width, withoutEnlargement: true })
+        .webp({ quality: 82, effort: 5 })
+        .toFile(fullPath);
+    }
     outputs.push({
       width,
       src: assetPath(path.relative(repoRoot, fullPath)),
@@ -222,6 +312,13 @@ async function convertVideo(sourceName, outputName) {
   const output = path.join(videoOutDir, `${outputName}.mp4`);
   const posterJpg = path.join(videoOutDir, `${outputName}-poster.jpg`);
   const posterWebp = path.join(videoOutDir, `${outputName}-poster.webp`);
+
+  if (REUSE_MEDIA && await fileExists(output) && await fileExists(posterWebp)) {
+    return {
+      src: assetPath(path.relative(repoRoot, output)),
+      poster: assetPath(path.relative(repoRoot, posterWebp)),
+    };
+  }
 
   await runFfmpeg([
     '-y',
@@ -257,9 +354,15 @@ async function convertVideo(sourceName, outputName) {
 }
 
 async function main() {
-  await ensureCleanDir(productOutDir);
-  await ensureCleanDir(brandOutDir);
-  await ensureCleanDir(videoOutDir);
+  if (REUSE_MEDIA) {
+    await ensureDir(productOutDir);
+    await ensureDir(brandOutDir);
+    await ensureDir(videoOutDir);
+  } else {
+    await ensureCleanDir(productOutDir);
+    await ensureCleanDir(brandOutDir);
+    await ensureCleanDir(videoOutDir);
+  }
 
   const [csvText, localMap] = await Promise.all([
     fs.readFile(csvPath, 'utf8'),
@@ -293,13 +396,31 @@ async function main() {
     const imageRows = group.filter((row) => row['Image Src']);
     const images = [];
 
-    for (let index = 0; index < imageRows.length; index += 1) {
-      const source = await imageInputFor(imageRows[index], localMap, handle, index + 1);
-      if (!source) continue;
-      if (source.includes(`${path.sep}.cache${path.sep}`)) downloadedCount += 1;
-      const image = await convertProductImage(source, productDir, handle, index + 1, imageRows[index]['Image Alt Text'] || cleanTitle(main.Title));
-      images.push(image);
-      imageCount += 1;
+    // Fast path: reuse already-generated product webp files (no source needed).
+    const reusedImages = [];
+    if (REUSE_MEDIA) {
+      for (let index = 0; index < imageRows.length; index += 1) {
+        const existing = await existingResponsive(
+          productDir,
+          `${handle}-${index + 1}`,
+          imageRows[index]['Image Alt Text'] || cleanTitle(main.Title),
+        );
+        if (existing) reusedImages.push(existing);
+      }
+    }
+
+    if (reusedImages.length === imageRows.length && reusedImages.length) {
+      images.push(...reusedImages);
+      imageCount += reusedImages.length;
+    } else {
+      for (let index = 0; index < imageRows.length; index += 1) {
+        const source = await imageInputFor(imageRows[index], localMap, handle, index + 1);
+        if (!source) continue;
+        if (source.includes(`${path.sep}.cache${path.sep}`)) downloadedCount += 1;
+        const image = await convertProductImage(source, productDir, handle, index + 1, imageRows[index]['Image Alt Text'] || cleanTitle(main.Title));
+        images.push(image);
+        imageCount += 1;
+      }
     }
 
     if (!images.length) {
@@ -320,6 +441,8 @@ async function main() {
       tags: main.Tags ? main.Tags.split(',').map((tag) => tag.trim()).filter(Boolean) : [],
       price: formatPrice(main['Variant Price']),
       description: description.length > 180 ? `${description.slice(0, 177).trim()}...` : description,
+      bodyHtml: sanitizeRichHtml(main['Body (HTML)']),
+      specs: specsFor(main),
       featured: featuredHandles.has(handle),
       images,
     });
@@ -343,12 +466,10 @@ async function main() {
     filters: [
       ['all', 'All'],
       ['bedroom', 'Bedroom'],
-      ['living', 'Living'],
-      ['dining', 'Dining'],
-      ['kids', 'Kids'],
-      ['tables', 'Tables'],
-      ['storage', 'Storage'],
-      ['outdoor', 'Outdoor'],
+      ['living', 'Living Room'],
+      ['dining', 'Dining Room'],
+      ['study', 'Study & Entryway'],
+      ['kids', 'Kids & Nursery'],
     ],
     video,
     brand,
