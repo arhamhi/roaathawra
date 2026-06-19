@@ -443,6 +443,7 @@ async function main() {
       description: description.length > 180 ? `${description.slice(0, 177).trim()}...` : description,
       bodyHtml: sanitizeRichHtml(main['Body (HTML)']),
       specs: specsFor(main),
+      specsText: stripHtml(main['SEO Description'] || ''),
       featured: featuredHandles.has(handle),
       images,
     });

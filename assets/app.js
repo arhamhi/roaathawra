@@ -166,8 +166,10 @@
     var list = (p.specs && p.specs.length)
       ? '<ul class="spec-list">' + p.specs.map(function (s) { return '<li><b>' + esc(s.label) + '</b><span>' + esc(s.value) + '</span></li>'; }).join('') + '</ul>'
       : '';
-    return '<details><summary>Measurements<span class="plus"></span></summary><div class="acc-body">' + list +
-      '<p>Made to order. Dimensions and sizing can be customised to your space — message us for the exact measurements of this piece and any custom options.</p></div></details>';
+    var text = p.specsText ? '<p>' + esc(p.specsText) + '</p>' : '';
+    if (!list && !text) return '';
+    return '<details><summary>Materials + Specifications<span class="plus"></span></summary><div class="acc-body">' + list + text +
+      '<p style="margin-top:10px;color:var(--c-muted);font-size:.85rem">Made to order — sizes and finishes can be customised. Message us for full dimensions.</p></div></details>';
   }
   function detailsHtml(p) {
     var SHIPPING = 'Once your order is confirmed and advance payment received, please allow 18-21 days for delivery. Before we begin production, one of our representatives will contact you to confirm all details and ensure your complete satisfaction. Your comfort is our priority.<br><br><strong>Please note: Custom-made pieces are non-returnable.</strong>';
