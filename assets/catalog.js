@@ -1,5 +1,5 @@
 window.ROAATHAWRA_CATALOG = {
-  "generatedAt": "2026-06-19T15:21:34.193Z",
+  "generatedAt": "2026-06-19T15:53:19.758Z",
   "products": [
     {
       "handle": "the-wicker-bed",
@@ -22,6 +22,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>The Ultimate Utility Player</h2>\n<p>Most guest rooms sit empty 90% of the year. The Wicker Bed ensures that space earns its keep. This is smart engineering, not just furniture, a dual-purpose piece that transforms from a sophisticated 3-seater lounge to a full-sized single bed in moments.<br><br></p>\n<h3>Why Choose The Wicker Bed?</h3>\n<p>Stop letting your guest room sit idle. The Wicker Bed maximizes every square foot with thoughtful design.. offering comfortable seating for daily use, overnight sleeping for guests, and hidden storage for everything in between. It's the kind of multi-functional piece that makes small spaces work harder and large spaces more intentional.</p>\n<p>Perfect for guest rooms, home offices, studios, or any space that needs to do more than one thing well.</p>",
       "specs": [],
       "specsText": "Multi-functional sofa bed with canework back, built-in storage drawers, and dual-purpose design. 3-seater lounge converts to single bed. Made in Pakistan.",
+      "materialsHtml": "",
       "featured": true,
       "images": [
         {
@@ -65,6 +66,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Where East Meets West</h2>\n<p>The Japandi Coffee Table challenges traditional furniture norms with its unique \"odd-shaped\" top and smooth, curved edges. Inspired by the fusion of Japanese minimalism and Scandinavian functionality, this piece brings organic elegance to your living space.</p>\n<h3>Why Choose The Japandi Coffee Table?</h3>\n<p>This isn't just a coffee table, it's a sculptural centerpiece that redefines your living room. The organic curves and natural materials create a calming, grounded presence that pairs beautifully with both modern and traditional interiors.</p>\n<p>Perfect for those who appreciate design that breaks the mold while maintaining timeless appeal.</p>",
       "specs": [],
       "specsText": "Unique Japandi-style coffee table with curved edges, ashwood veneer top, and solid pinewood legs. 42×42×15 inches. East-meets-West design. Made in Pakistan.",
+      "materialsHtml": "",
       "featured": true,
       "images": [
         {
@@ -107,6 +109,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Our Most Requested \"Client Diary\" Piece</h2>\n<p>The Primadonna is designed for the modern Pakistani family lounge, where aesthetics meet the reality of heavy daily use. This deep, modular sectional transforms your living room into a high-end social hub, built to handle everything from intimate gatherings to full family celebrations.</p>\n<h3>Why Choose The Primadonna?</h3>\n<p>This isn't just a sofa.. it's the centerpiece your family deserves. The Primadonna balances refined design with the durability required for real life. Whether you're hosting guests or unwinding after a long day, this sectional delivers comfort without compromise.</p>\n<p><em>Customizable to your space. Contact us to discuss your room dimensions and preferred configuration.</em></p>",
       "specs": [],
       "specsText": "Modular sectional sofa with high-density foam, deep seating, and wide armrests. Customizable size. Built for modern Pakistani family lounges. Made in Pakistan.",
+      "materialsHtml": "",
       "featured": true,
       "images": [
         {
@@ -149,6 +152,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>High-Impact Geometry for the Master Suite</h2>\n<p>This isn't a flimsy decorative frame. The Luxury Poster Bed is built using a massive 3-inch by 3-inch solid pinewood frame all around, engineered to deliver a grounded, industrial luxury feel. It's a statement of strength and refined craftsmanship designed for those who value substance as much as style.</p>\n<h3>Why Choose The Luxury Poster Bed?</h3>\n<p>Transform your master suite into a sanctuary of modern luxury. The bold geometry, premium velvet upholstery, and industrial-strength construction create a centerpiece that anchors your room with confidence and elegance.</p>",
       "specs": [],
       "specsText": "High-impact luxury poster bed with 3x3 solid pinewood frame, black tufted suede velvet upholstery, and matching side tables. Customizable finish. Made in Pakistan.",
+      "materialsHtml": "",
       "featured": true,
       "images": [
         {
@@ -194,6 +198,7 @@ window.ROAATHAWRA_CATALOG = {
         }
       ],
       "specsText": "Solid Pinewood treehouse built to international safety standards. Weather-treated for Pakistani climate. Inspires outdoor play and imagination. Ages 2-10. Get kids off screens.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -225,6 +230,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Ladders Are Dangerous</h2>\n<p>We replaced the traditional bunk ladder with a <strong>sturdy staircase that houses 10 built-in drawers</strong>. The <strong>Cubic Bunk Bed</strong> is safer for climbing and solves your toy storage problem in one go. It's the bunk bed reimagined for parents who prioritize both safety and organization.</p>\n<h3>Staircase Instead of Ladder</h3>\n<p>The wide, stable staircase provides secure footing for kids climbing up and down, especially in the dark or when they're half-asleep. No more wobbly ladder rungs, no more midnight falls, no more anxiety about your kids navigating a vertical climb. Just safe, confident steps.</p>\n<h3>10 Built-In Storage Drawers</h3>\n<p>Each step of the staircase doubles as a drawer, giving you <strong>10 generous storage compartments</strong> for toys, clothes, books, and all the stuff that tends to clutter kids' rooms. It's vertical storage that actually makes sense, turning wasted space into functional organization.</p>\n<h3>Solid Kale Wood Construction</h3>\n<p>Made entirely of <strong>Solid Kale Wood</strong>, this is <strong>heavy-duty construction meant to handle siblings jumping, climbing, and sleeping for years</strong>. This isn't furniture you'll replace when the kids get bigger—it's built to last through the entire childhood.<br><br></p>\n<p>The Cubic Bunk Bed is for parents who want their kids to share a room safely and stay organized without sacrificing floor space. It's thoughtful design that solves multiple problems at once.</p>",
       "specs": [],
       "specsText": "Bunk bed with staircase instead of ladder, featuring 10 built-in storage drawers. Solid Kale wood construction. Safe climbing, massive storage. 3ft x 6ft 6in mattresses.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -256,6 +262,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Make Bedtime the Best Part of the Day</h2>\n<p>This isn't just a place to sleep; it's a fortress. <strong>The Kid Playhouse Bed</strong> includes a <strong>built-in settee seat and three bookshelves</strong>, creating a cozy independent environment for reading, playing, and imagining. It's the bed that makes kids actually want to go to their room.</p>\n<h3>A Cozy Independent Environment</h3>\n<p>The integrated settee seat creates a perfect reading nook where your child can curl up with their favorite books. The three bookshelves keep their library organized and within reach, encouraging independent reading time and quiet play. It's a complete little world built into one piece of furniture.</p>\n<h3>Built to Withstand Active Play</h3>\n<p>The <strong>solid structure is designed to withstand active play</strong>—because we know this bed will be climbed on, jumped near, and used as a base for countless imaginary adventures. The shelves are <strong>integrated into the frame for stability</strong>, not just tacked on as an afterthought.</p>\n<h3>Encourages Reading &amp; Independence</h3>\n<p>By creating a dedicated space for books and quiet activities right in their sleeping area, the Playhouse Bed encourages healthy bedtime routines. Kids can wind down with a book in their cozy seat, building positive associations with their bedroom and bedtime.</p>\n<p>The Kid Playhouse Bed is for parents who want their child's bedroom to be a place of imagination, independence, and joy. It's furniture that transforms bedtime from a battle into an adventure.</p>",
       "specs": [],
       "specsText": "Playhouse bed with built-in settee seat and 3 bookshelves. Solid construction for active play. Creates cozy reading nook. 3ft 6in x 6ft 6in. Makes bedtime fun and independent.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -287,6 +294,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>The Perfect Transition Bed</h2>\n<p>When the crib is too small but a standard bed feels too unsafe, <strong>The Arrondi Bed</strong> steps in. <strong>Rounded bars on the front and back</strong> prevent night-time falls while giving your child the independence they're ready for. It's the bridge between baby and big kid.</p>\n<h3>Safety Rails That Don't Feel Like a Cage</h3>\n<p>The rounded bars provide essential fall protection during those restless nights when your child is still learning to sleep in a bigger bed. But unlike full crib rails, they're low enough that your child can climb in and out independently, building confidence and self-reliance.</p>\n<h3>Modern Nursery Aesthetic</h3>\n<p>The sleek legs and clean lines give the Arrondi a <strong>modern nursery aesthetic that doesn't scream \"baby furniture.\"</strong> It's sophisticated enough to grow with your child's room as they transition from toddler to young kid, so you won't need to replace it in a year.</p>\n<h3>Solid Pinewood &amp; MDF Construction</h3>\n<p>Built with <strong>Solid Pinewood and MDF</strong>, the Arrondi balances durability with affordability. The solid wood provides structural integrity while the MDF keeps the price accessible for growing families who need quality without breaking the budget.</p>\n<p>The Arrondi Bed is for parents navigating that tricky transition phase when your child is ready for more freedom but still needs protection. It's thoughtful design that respects both safety and independence.</p>",
       "specs": [],
       "specsText": "Perfect transition bed with rounded safety bars on front and back. Solid Pinewood & MDF construction. Modern design that grows with your child. 6ft x 3ft. Independence with protection.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -318,6 +326,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Stop Worrying About Them Rolling Out of Bed</h2>\n<p>This <strong>Low Rise design</strong> is certified by child specialists to prevent fall injuries. <strong>The Kid Bed</strong> empowers your toddler to get in and out of bed safely on their own, fostering independence while giving you peace of mind.</p>\n<h3>Child Specialist Certified Safety</h3>\n<p>The low profile design means that even if your child does roll out during sleep, the fall distance is minimal and safe. This isn't just marketing—it's a design certified by child development and safety specialists who understand how toddlers move and sleep.</p>\n<h3>Solid Kale Wood &amp; Himalayan Spruce</h3>\n<p>Constructed from <strong>Solid Kale Wood and Himalayan Spruce</strong>, two durable hardwoods that can withstand the jumping, climbing, and rough play that comes with toddlerhood. This bed is built to last through the energetic years.</p>\n<h3>Child-Safe Matt Enamel Finish</h3>\n<p>Finished in <strong>child-safe Matt Enamel</strong> with <strong>curved edges</strong>—no sharp corners to bump heads on during midnight bathroom trips or early morning wake-ups. Every detail is designed with your child's safety in mind.</p>\n<h3>Encourages Independence</h3>\n<p>The low height allows toddlers to climb in and out of bed independently, building confidence and self-sufficiency. No more calling for help every time they need to get up, and no more worrying about dangerous climbs over high rails.</p>\n<p>The Kid Bed is for parents who want to transition their toddler to a big kid bed without the anxiety. It's safety-first design that respects your child's growing independence.</p>",
       "specs": [],
       "specsText": "Child specialist certified low rise toddler bed. Solid Kale wood & Himalayan Spruce with child-safe matt enamel finish. Curved edges, no sharp corners. 6ft 6in x 3ft 6in mattress.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -348,6 +357,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Your Back Will Thank You</h2>\n<p>We designed the <strong>Malacca Crib &amp; Changer</strong> with a <strong>folding front bar</strong>, making it effortless to pick up your baby without leaning dangerously over the rail. It's the most user-friendly crib on the Pakistani market, built by people who understand that new parents are already exhausted enough.</p>\n<h3>Folding Front Bar Innovation</h3>\n<p>The folding bar isn't just convenient—it's a safety feature. No more awkward reaching, no more straining your back at 3 AM during a diaper change. Simply fold down the bar, lift your baby with proper posture, and fold it back up. It's the kind of thoughtful design that makes sleepless nights just a little bit easier.</p>\n<h3>Attached Changing Station</h3>\n<p>Features an <strong>attached changing station with 4 deep drawers</strong> that keep diapers, wipes, and onesies within arm's reach. No running across the room during a messy change, no leaving your baby unattended on the table. Everything you need is right there, exactly when you need it.</p>\n<h3>Smart Space-Saving Design</h3>\n<p>By combining the crib and changing station into one integrated unit, the Malacca saves precious nursery space while keeping your baby care essentials organized and accessible. It's furniture designed for real life with a newborn.</p>\n<p>The Malacca Crib &amp; Changer is for parents who want nursery furniture that actually makes their lives easier, not harder. It's thoughtful design that respects your body, your time, and your baby's safety.</p>",
       "specs": [],
       "specsText": "User-friendly baby crib with folding front bar and attached changing station. 4 deep drawers for storage. Back-friendly design. Crib: 4ft 6in x 2ft 6in. Most innovative crib in Pakistan.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -378,6 +388,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>The Finishing Touch</h2>\n<p>The <strong>Suede and Gold Bench</strong> is the detail that elevates a room from furnished to designed. Place this at the foot of your bed for a hotel-style touch, or in your entryway as a sophisticated spot to put on shoes. The <strong>Grey Suede seat</strong> on <strong>Antique Gold legs</strong> adds a layer of luxury to any room.</p>\n<h3>Hotel-Style Elegance</h3>\n<p>There's something about the combination of soft grey suede and gleaming antique gold that feels inherently luxurious. It's the kind of detail you notice in boutique hotels and high-end interiors—and now it's in your home, making every morning feel a little more special.</p>\n<h3>Solid Wood Legs in Antique Gold</h3>\n<p><strong>Solid wood legs</strong> coated in a rich <strong>Antique Gold finish</strong> provide both structural integrity and visual warmth. The antique finish adds character and depth, avoiding the harsh look of bright metallics while still catching light beautifully.</p>\n<h3>High-Density Foam Cushioning</h3>\n<p>The seat is cushioned with <strong>high-density foam that holds its shape</strong> over time. No sagging, no flattening—just consistent comfort and support whether you're sitting to tie your shoes or taking a moment to rest.</p>\n<p>The Suede and Gold Bench is for those who understand that luxury is in the details, and that the right finishing touch can transform an entire space.</p>",
       "specs": [],
       "specsText": "Luxury bench with grey suede upholstery and antique gold solid wood legs. High-density foam cushioning. Perfect for bedrooms and entryways. 4ft long. Hotel-style elegance.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -408,6 +419,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Versatility is Key</h2>\n<p><strong>The November Cabinet</strong> combines open display areas with concealed storage, giving you the flexibility to showcase your favorite pieces while keeping clutter hidden. It's the best of both worlds in one thoughtfully designed piece.</p>\n<h3>Easy to Match, Easy to Love</h3>\n<p>The mix of <strong>brown wood texture and white texture</strong> creates a neutral, adaptable aesthetic that makes it easy to match with your existing furniture. Whether your style is modern, traditional, or somewhere in between, the November Cabinet fits seamlessly into your space.</p>\n<h3>Tactile MDF &amp; Solid Wood Construction</h3>\n<p>Built with a <strong>Tactile MDF body</strong> supported by <strong>solid wood legs</strong>, this cabinet balances affordability with durability. The solid wood legs provide stability and a premium touch, while the MDF body keeps the piece accessible without sacrificing quality.</p>\n<h3>Smart Storage Solutions</h3>\n<p>Includes a <strong>bottom drawer</strong> perfect for storing table linens, seasonal decor, or items you want to keep out of sight but within reach. The open shelving above lets you display books, plants, or decorative objects that deserve to be seen.</p>\n<h3>Customizable Width Option</h3>\n<p>Available with a minimum width of 2ft, making it customizable to fit your specific space requirements. Whether you need a compact solution or the full 4ft width, the November Cabinet adapts to your needs.</p>\n<p>The November Cabinet is for those who value flexibility, versatility, and furniture that works with what they already own. It's practical storage that doesn't demand you redecorate around it.</p>",
       "specs": [],
       "specsText": "Versatile cabinet with open display and concealed drawer storage. Brown wood & white texture finish. Tactile MDF with solid wood legs. Customizable width from 2ft. 4ft x 3ft 6in.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -438,6 +450,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Is It Furniture or Sculpture?</h2>\n<p>The <strong>Stack Drawer Console</strong> catches the eye immediately with its asymmetrical \"stacked\" drawer design. This isn't just storage—it's a conversation piece that blurs the line between functional furniture and modern art.</p>\n<h3>Built for Tight Spaces</h3>\n<p>With a narrow footprint of just <strong>1ft 6in wide</strong>, this console fits into tight hallways where standard consoles would block the path. It's the solution for apartments, narrow entryways, and spaces where every inch matters, but style can't be compromised.</p>\n<h3>Textural Depth Through Contrast</h3>\n<p>A striking mix of <strong>High Gloss Black, White, and Ashwood MDF</strong> creates visual interest through contrasting textures and finishes. The glossy surfaces reflect light while the natural Ashwood adds warmth—together they add depth and dimension to even the smallest spaces.</p>\n<h3>Vertical Storage Solution</h3>\n<p>The tall, stacked design maximizes vertical space, giving you ample drawer storage without eating up precious floor area. It's smart design for modern living where square footage is at a premium.</p>\n<p>The Stack Drawer Console is for those who refuse to sacrifice style for space constraints. It's functional art that proves small footprints can make big statements.</p>",
       "specs": [],
       "specsText": "Sculptural console with asymmetrical stacked drawers. Ultra-narrow 1ft 6in width fits tight hallways. High gloss black, white & ashwood finish. 4ft 2in tall vertical storage.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -468,6 +481,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>A Piece of Mid-Century Modern History for Your Hallway</h2>\n<p><strong>The Vintage Console</strong> transforms a boring entryway into a designed space. With retro round handles, cylindrical legs, and a distinctive two-tone finish, this piece carries the character and charm of Mid-Century Modern design into your home.</p>\n<h3>Distinct Retro Character</h3>\n<p>Every detail tells a story. The round handles evoke the optimism of 1950s design, while the cylindrical legs create clean lines that feel both nostalgic and timeless. The two-tone finish adds visual interest without overwhelming your space—it's furniture with personality.</p>\n<h3>Ashwood Veneer &amp; Solid Pinewood</h3>\n<p>The body features beautiful <strong>Ashwood Veneer</strong> sitting on sturdy <strong>Solid Pinewood legs</strong>. This combination delivers the warm aesthetic of natural wood with the structural integrity needed for daily use in high-traffic entryways.</p>\n<h3>Practical Storage for Daily Essentials</h3>\n<p><strong>Four spacious drawers</strong> offer practical storage for keys, mail, chargers, sunglasses, and all the small items that tend to clutter entryways. Keep everything organized and within reach as you head out the door.</p>\n<p>The Vintage Console is for those who believe your entryway sets the tone for your entire home. It's where function meets nostalgia, and where everyday storage becomes a design statement.</p>",
       "specs": [],
       "specsText": "Mid-Century Modern console with retro round handles, cylindrical legs, and two-tone finish. Ashwood veneer body with 4 drawers. 4ft wide. Perfect for entryways and hallways.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -498,6 +512,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Not Another Bulky Box</h2>\n<p>Most bookshelves look like bulky boxes that dominate your wall. The <strong>Kale Bookshelf</strong> uses an <strong>open-frame architectural design</strong> that lets you display books and artifacts without blocking the view of your wall. It feels light and airy, but holds heavy loads with confidence.</p>\n<h3>Display Without Obstruction</h3>\n<p>The open-frame structure creates visual breathing room in your space. You can showcase your book collection, travel souvenirs, and decorative pieces while still appreciating the color and texture of your wall behind them. It's storage that doesn't feel like storage.</p>\n<h3>Solid Kale Wood Construction</h3>\n<p>Made entirely of <strong>Solid Kale Wood</strong> finished in a warm <strong>Brown Matt Enamel</strong>, this bookshelf combines natural durability with a refined, non-reflective finish. The matte surface adds sophistication without the glare of high-gloss alternatives.</p>\n<h3>Reinforced for Heavy Loads</h3>\n<p>The shelves are constructed from <strong>reinforced Tactile MDF</strong> to prevent sagging under the weight of encyclopedias, art books, and heavy hardcovers. Load it up without worry—this shelf is engineered to handle your entire collection.</p>\n<p>The Kale Bookshelf is for readers, collectors, and design enthusiasts who want their storage to enhance their space, not overwhelm it.</p>",
       "specs": [],
       "specsText": "Architectural open-frame bookshelf in solid Kale wood with brown matt enamel finish. Reinforced MDF shelves prevent sagging. 6ft 6in tall. Lightweight look, heavy-duty strength.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -528,6 +543,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Sleek, Sharp, and Professional</h2>\n<p>The <strong>Oak Study Table</strong> delivers sophisticated style through contrast. The wood-textured top paired with <strong>Black Gloss Enamel pencil legs</strong> creates a look that's equally at home in a modern living room or a professional office. It's furniture that adapts to your space, not the other way around.</p>\n<h3>Solid Wood Frame Construction</h3>\n<p>Built on a <strong>solid wood frame</strong>, this table provides the stability and durability you need for daily use. Whether you're working on spreadsheets, sketching designs, or managing projects, the Oak Study Table stays steady and reliable.</p>\n<h3>Discrete Storage Drawers</h3>\n<p>Includes <strong>two discrete drawers</strong> for stashing laptops, chargers, notebooks, and stationery at the end of the workday. Keep your workspace clean and organized without sacrificing accessibility. Everything you need is within reach, but out of sight when you want a clear surface.</p>\n<h3>Versatile Design</h3>\n<p>The sleek pencil legs and wood-textured top create a minimalist aesthetic that complements any interior style. It's professional enough for client-facing spaces but warm enough for home environments.</p>\n<p>The Oak Study Table is for professionals who value clean lines, smart storage, and furniture that looks as good as it functions.</p>",
       "specs": [],
       "specsText": "Professional study table with wood-textured top and black gloss enamel pencil legs. Solid wood frame with two discrete storage drawers. 4ft x 2ft. Perfect for offices and living rooms.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -558,6 +574,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Standard Desks Don't Work for Artists</h2>\n<p>We built the <strong>Macrame Table</strong> with specialized <strong>side vertical storage</strong> specifically sized for tall architectural tubes, rolled canvases, and long rulers. Keep your tools within reach, not scattered on the floor. This is a desk designed by people who understand the creative process.</p>\n<h3>Built for the Creative Workflow</h3>\n<p>The vertical storage isn't an afterthought—it's the core feature. Store your blueprints, poster boards, and oversized materials upright and organized, so you can grab what you need without breaking your flow. No more digging through piles or unrolling the wrong canvas.</p>\n<h3>Himalayan Spruce Wood Frame</h3>\n<p>Framed in <strong>Himalayan Spruce Wood</strong>, a timber known for its exceptional strength-to-weight ratio. It's strong enough to handle the weight of your materials but light enough to move when you need to rearrange your studio space.</p>\n<h3>Smooth Drawing Surface</h3>\n<p>The <strong>Tactile MDF top</strong> provides a smooth, consistent surface perfect for drawing, drafting, and detailed work. No grain interference, no texture distractions—just a clean canvas for your creativity.</p>\n<p>The Macrame Table is for artists, architects, and designers who need their workspace to work as hard as they do. It's functional, thoughtful, and built to support your creative process.</p>",
       "specs": [],
       "specsText": "Specialized art desk with vertical storage for tubes, canvases, and rulers. Himalayan Spruce wood frame with smooth MDF drawing surface. 4ft x 2ft. Perfect for artists and architects.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -588,6 +605,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Cluttered Desk, Cluttered Mind</h2>\n<p>The <strong>Lia Study Table</strong> is designed for absolute focus. Its clean <strong>White Deco finish</strong> reflects light and keeps your workspace feeling open, organized, and mentally clear. Whether you're a student tackling exams or a WFH professional managing deadlines, this table creates the calm environment you need to do your best work.</p>\n<h3>Wobble-Free Stability</h3>\n<p><strong>Solid Pinewood legs</strong> provide a rock-solid, wobble-free base that stays steady no matter how intense your typing sessions get. No distractions, no shaking monitors, just pure stability that lets you concentrate on what matters.</p>\n<h3>Easy-Clean Surface</h3>\n<p>The top is crafted from high-grade <strong>MDF finished in Enamel paint</strong>, making it incredibly easy to wipe away ink stains, coffee spills, or eraser dust. Your workspace stays pristine with minimal effort, so you can focus on productivity instead of cleaning.</p>\n<p>The Lia Study Table is where clarity meets productivity. It's minimal, functional, and built to help you get things done without distraction.</p>",
       "specs": [],
       "specsText": "Clean white study table with solid Pinewood legs and easy-clean MDF top. Wobble-free design perfect for students and work-from-home professionals. 4ft x 2ft. Stain-resistant enamel finish.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -618,6 +636,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Your Good Crockery Deserves Better Than a Cardboard Box</h2>\n<p>The <strong>Kinza China Cabinet</strong> is a massive <strong>8ft by 8ft display unit</strong> designed to turn your dining room into a showroom. This isn't storage—it's a stage for your finest crystal, china, and heirloom pieces that deserve to be seen, not hidden away.</p>\n<h3>Integrated LED Lighting</h3>\n<p>Built-in <strong>LED lighting</strong> illuminates your collection from within, creating a museum-quality display that highlights the craftsmanship of every piece. Watch your crystal catch the light, your china glow with warmth, and your dining room transform into a gallery of elegance.</p>\n<h3>Dust-Proof Glass Shutters</h3>\n<p>Protected behind <strong>dust-proof glass shutters</strong>, your collection stays pristine without constant cleaning. The glass provides full visibility while keeping your treasures safe from dust, fingerprints, and daily wear.</p>\n<h3>Built to Handle Weight</h3>\n<p>Constructed from a robust <strong>Tactile MDF frame</strong> that resists warping even under the weight of heavy dishware, serving platters, and full dinner sets. This cabinet is engineered for serious collectors who need serious storage.</p>\n<p>The Kinza China Cabinet is for those who believe beautiful things should be displayed, not stored. It's where your grandmother's china finally gets the respect it deserves.</p>",
       "specs": [],
       "specsText": "Massive 8ft x 8ft china cabinet with integrated LED lighting and dust-proof glass shutters. Tactile MDF construction. Perfect for displaying crystal, china, and heirloom pieces. Showroom-quality storage.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -649,6 +668,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Drama in Black</h2>\n<p>If you want a dining room that creates a mood, this is it. The <strong>Black Modern Antique Dining Set</strong> is crafted entirely from <strong>Solid Sheesham Wood</strong> and finished in a stunning high-gloss <strong>Black Deco</strong> that reflects candlelight beautifully during dinner parties, transforming every meal into an occasion.</p>\n<h3>Protected Elegance</h3>\n<p>We include a <strong>protective glass top</strong> to preserve the high-gloss finish from scratches and daily wear, so your table maintains its mirror-like shine for years. The glass adds a layer of sophistication while keeping the dramatic black surface pristine beneath.</p>\n<h3>Regal Seating with Intricate Details</h3>\n<p>The chairs are designed to impress. Featuring <strong>high backs with intricate cut-out details</strong>, they provide excellent lumbar support while adding a regal, almost throne-like aesthetic to your dining space. Every detail is intentional, every curve purposeful.</p>\n<p>This isn't just a dining set—it's a statement. The Black Modern Antique Dining Set is for those who understand that atmosphere matters, that lighting a candle should feel like an event, and that your dining room deserves to be unforgettable.</p>",
       "specs": [],
       "specsText": "Dramatic 6-seater dining set in high-gloss Black Deco finish. Solid Sheesham wood with protective glass top. High-back chairs with intricate cut-outs. 6ft x 3ft. Perfect for elegant dinner parties.",
+      "materialsHtml": "",
       "featured": true,
       "images": [
         {
@@ -685,6 +705,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Angular Precision Meets Aerodynamic Elegance</h2>\n<p>The <strong>Egypt Dining Table</strong> redefines modern dining with its striking geometric design. Featuring beveled, tapered edges and angled legs, this table creates a captivating \"floating\" appearance that makes your dining room feel open, spacious, and less crowded.</p>\n<h3>Sleek Looks, Solid Strength</h3>\n<p>Don't let the light, aerodynamic aesthetic fool you. Beneath the refined exterior lies a robust <strong>Solid Pinewood</strong> structure, topped with a premium <strong>Oak Veneer MDF surface</strong> finished in a rich <strong>Dark Brown Polish</strong>. This is furniture that looks effortlessly modern while delivering the durability you need for daily use.</p>\n<h3>Architectural Details That Matter</h3>\n<p>Every angle is intentional. The beveled edges catch light beautifully, creating subtle shadows that enhance the table's dimensional quality. The tapered design isn't just visual—it's functional, giving you more legroom and creating clean sightlines across your dining space.</p>\n<p>The Egypt Dining Table is for those who appreciate clean lines, thoughtful design, and furniture that makes a statement without overwhelming the space.</p>",
       "specs": [],
       "specsText": "Modern dining table with beveled edges and angled legs creating a floating appearance. Solid Pinewood frame with Oak Veneer MDF top in Dark Brown Polish. Sleek, space-enhancing design.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -722,6 +743,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>An Heirloom, Not Just a Table</h2>\n<p>The <strong>Thawra Dining Table</strong> isn't furniture you replace—it's an inheritance. Crafted from a premium blend of <strong>Rosewood (Sheesham)</strong> and <strong>Mahogany</strong>, two of the densest and most durable hardwoods on earth, this table is built to handle hot dishes, heavy feasts, and generations of family dinners.</p>\n<h3>Built to Last Generations</h3>\n<p>Imagine the weight of solid wood beneath your palms—stable, grounding, undeniably premium. The Thawra is heavy by design, engineered for permanence. The wood is professionally sealed to resist heat marks and water rings, so your table stays flawless through decades of use.</p>\n<h3>Modern Textural Contrast</h3>\n<p>Paired with <strong>White Jute Fabric chairs</strong>, the Thawra balances timeless craftsmanship with contemporary elegance. The natural grain of the wood contrasts beautifully with the soft, breathable texture of jute—creating a dining experience that's both luxurious and inviting.</p>\n<p>This is the table where memories are made, stories are shared, and traditions are born. The Thawra Dining Table is an investment in your home's future.</p>",
       "specs": [],
       "specsText": "Heirloom-quality 8-seater dining table crafted from solid Rosewood & Mahogany. Heat-resistant, water-sealed, built to last generations. Includes white jute fabric chairs. 8ft x 4ft.",
+      "materialsHtml": "",
       "featured": true,
       "images": [
         {
@@ -764,6 +786,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>The sidekick your sofa needs.</h2>\n<p>Perfect for a single candle, a book, or a cup of chai. The high rim design is genius.. if you accidentally knock your tea, it stays contained on the table instead of cascading onto your expensive rug. It's the kind of thoughtful detail that saves you from disaster.</p>\n<h3>Lightweight Versatility</h3>\n<p>Finished in a sleek black polish that works with virtually any color scheme. Light enough to move around the room wherever you need a surface—next to your reading chair in the afternoon, beside the sofa for movie night, or by the window for your morning coffee ritual.</p>\n<h3>Why Nayab Is Essential</h3>\n<ul>\n<li>High rim design contains spills and prevents disasters</li>\n<li>Perfect size for drinks, books, or decorative accents</li>\n<li>Sleek black polish finish complements any décor</li>\n<li>Lightweight and easy to move around</li>\n<li>2ft height ideal for sofa and chair arm level</li>\n<li>Compact 1ft 6in diameter fits tight spaces</li>\n<li>Versatile enough to use in any room</li>\n<li>Affordable luxury that punches above its price point</li>\n</ul>\n<p><em>Small table. Big impact.</em></p>",
       "specs": [],
       "specsText": "Versatile side table with high rim design to contain spills. Black polish finish, 2ft height, 1ft 6in diameter. Lightweight and movable for any room.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -795,6 +818,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Hide the ugly wires.</h2>\n<p>This console is designed for the modern entertainment setup. Its long, low profile accommodates 65\"+ TVs without looking crowded or top-heavy, while the black and gold accent legs add a touch of luxury that elevates it beyond basic media storage.</p>\n<h3>Thoughtful Design, Real Solutions</h3>\n<p>Clean straight lines meet soft curved ends to prevent those painful shin-banging moments when you're walking past in the dark. Three large drawers provide ample storage for gaming consoles, streaming devices, cable boxes, and the tangle of wires that come with modern entertainment systems. Everything hidden, everything organized.</p>\n<h3>Why This Console Works</h3>\n<ul>\n<li>Long, low profile perfect for 65\"+ TVs</li>\n<li>Black and gold accent legs add luxury touch</li>\n<li>Three large drawers for gaming consoles and electronics</li>\n<li>Cable management built into the design</li>\n<li>Soft curved ends prevent shin injuries</li>\n<li>Dark wood finish adds warmth and sophistication</li>\n<li>Solid wood legs ensure stability under heavy TVs</li>\n<li>Modern antique aesthetic bridges contemporary and classic styles</li>\n</ul>\n<p><em>Where your entertainment center meets interior design.</em></p>",
       "specs": [],
       "specsText": "Luxury TV console with 3 large drawers and black & gold accent legs. Dark wood finish, perfect for 65\"+ TVs. Modern antique design with smart cable management.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -832,6 +856,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Flat tables are boring.</h2>\n<p>The Three Tier design allows for dynamic styling that brings your living room to life. Stack coffee table books on the bottom tier, place decorative objects in the middle, and keep your actual coffee on top. It creates visual layers and depth that flat surfaces simply can't match.</p>\n<h3>Built to Anchor Your Space</h3>\n<p>A substantial 4ft x 4ft footprint anchored by a solid wooden frame. This isn't a delicate accent piece—it's a statement table designed to ground large sectional sofas and spacious living rooms. The kind of furniture that makes a room feel complete and intentional.</p>\n<h3>Why Three Tiers Transform Spaces</h3>\n<ul>\n<li>Three-tier design creates visual depth and styling opportunities</li>\n<li>Bottom tier for books and magazines</li>\n<li>Middle tier for decorative objects and plants</li>\n<li>Top tier for drinks, remotes, and daily essentials</li>\n<li>Substantial 4ft x 4ft footprint anchors large seating areas</li>\n<li>Solid wooden frame ensures stability and longevity</li>\n<li>18-inch height perfect for standard sofa seating</li>\n<li>Ideal for sectionals and spacious living rooms</li>\n</ul>\n<p><em>Where function meets display-worthy design.</em></p>",
       "specs": [],
       "specsText": "Substantial three-tier coffee table, 4ft x 4ft with solid wood frame. Multi-level styling, perfect for large sectionals and spacious living rooms.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -869,6 +894,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h3>Designed for the modern apartment.</h3>\n<p>The \"floating\" gap design creates visual lightness that makes the table appear to hover above your floor. This clever design trick helps small living rooms feel more spacious and airy—essential when you're working with limited square footage but refuse to compromise on style.</p>\n<h3>Built Tougher Than It Looks</h3>\n<p>Crafted from tactile particle board in a light wood pine texture that brings warmth without the weight. Unlike traditional polish that shows every water ring and scratch, this tactile finish resists daily wear beautifully. Set down your chai cup without a coaster. We won't judge.</p>\n<h3>Why Floating Works</h3>\n<ul>\n<li>\"Floating\" gap design creates visual lightness</li>\n<li>Makes small living rooms feel more spacious</li>\n<li>Light wood pine texture adds warmth and natural appeal</li>\n<li>Tactile finish resists scratches and water rings</li>\n<li>More durable than traditional polish finishes</li>\n<li>4ft width provides ample surface space</li>\n<li>Lower 1ft 6in height creates modern, streamlined look</li>\n<li>Perfect for contemporary apartments and compact spaces</li>\n</ul>\n<p><em>Less visual weight. More living space.</em></p>",
       "specs": [],
       "specsText": "Modern floating design coffee table in light wood pine. 4ft wide, tactile particle board, scratch and water-resistant. Perfect for small apartments and contemporary spaces.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -906,6 +932,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h3>Clutter is the enemy of design.</h3>\n<p>The Trapeze features a massive 3ft 6in wide drawer hidden within its sleek profile. Sweep your remotes, magazines, chargers, and all the daily chaos inside, and keep the surface pristine. It's the secret weapon of people whose homes always look Instagram-ready.</p>\n<h3>Smart Finishes, Smarter Design</h3>\n<p>A striking combination of high gloss MDF and tactile finish. The gloss reflects light to brighten your room and create visual spaciousness, while the tactile sections strategically hide fingerprints and smudges. Beautiful and practical—exactly as furniture should be.</p>\n<h3>Why Trapeze Solves Real Problems</h3>\n<ul>\n<li>Massive 3ft 6in wide hidden drawer for clutter control</li>\n<li>10-inch drawer height fits remotes, magazines, tablets, and more</li>\n<li>High gloss finish reflects light to brighten the room</li>\n<li>Tactile finish sections hide fingerprints and daily wear</li>\n<li>Sleek profile maintains clean, modern aesthetic</li>\n<li>Perfect for open-plan living where visual calm matters</li>\n<li>Dual-finish design adds depth and visual interest</li>\n</ul>\n<p><em>Out of sight, out of mind. In style, always.</em></p>",
       "specs": [],
       "specsText": "Modern coffee table with 3ft 6in hidden drawer. High gloss and tactile dual finish, 10in storage height. Perfect for clutter-free living rooms.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -943,6 +970,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h3>The circle breaks the square.</h3>\n<p>Most living rooms are full of rectangles—sofa, rug, TV stand, shelves. The Urwa's round shape softens the visual flow of your room and allows for easier movement in tight spaces. No more bruised shins navigating around sharp corners. Just smooth, intuitive circulation.</p>\n<h3>Built to Survive Real Life</h3>\n<p>A tactile MDF top sits on a black matt powder-coated steel frame. The powder coating isn't just aesthetic—it prevents rust and chipping, making this table nearly indestructible. Spill your chai, let the kids do homework on it, drag it across the floor. It takes it all.</p>\n<h3>Why Round Makes Sense</h3>\n<ul>\n<li>Round shape softens rectangular room layouts</li>\n<li>Easier navigation in tight spaces—no sharp corners</li>\n<li>Tactile MDF top with interesting texture</li>\n<li>Black matt powder-coated steel frame resists rust and chips</li>\n<li>Nearly indestructible construction for high-traffic homes</li>\n<li>3ft 6in diameter provides ample surface without overwhelming</li>\n<li>18-inch height perfect for standard sofa seating</li>\n<li>Industrial-modern aesthetic with practical benefits</li>\n</ul>\n<p><em>Form follows function. Beauty follows durability.</em></p>",
       "specs": [],
       "specsText": "Round centre table with tactile MDF top and powder-coated steel frame. 3ft 6in diameter, rust-resistant, perfect for tight spaces. Industrial modern design.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -980,6 +1008,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h3>If you have kids, you know the fear of sharp table corners.</h3>\n<p>The Srraa solves this with smooth, curved edges and a thoughtful double-sided design. It's safe for toddlers learning to walk but stylish enough for a formal lounge when guests arrive. Finally, a coffee table that doesn't make you choose between safety and sophistication.</p>\n<h3>Looks Like Timber, Moves Like a Dream</h3>\n<p>Crafted from ashwood veneer MDF and finished in an oak brown matt polish, it has the rich appearance of a solid timber block without the back-breaking weight. Light enough to move when you need to vacuum the rug, sturdy enough to handle daily family life.</p>\n<h3>Why Srraa Works for Real Homes</h3>\n<ul>\n<li>Smooth curved edges—no sharp corners for safety-conscious parents</li>\n<li>Double-sided design for visual interest from any angle</li>\n<li>Ashwood veneer MDF with oak brown matt finish</li>\n<li>Looks like solid timber, weighs significantly less</li>\n<li>Easy to move for cleaning or rearranging</li>\n<li>4ft 6in length provides ample surface space</li>\n<li>18-inch height perfect for standard sofa seating</li>\n<li>Versatile style suits both casual and formal settings</li>\n</ul>\n<p><em>Where family-friendly meets design-forward.</em></p>",
       "specs": [],
       "specsText": "Family-friendly centre table with curved edges and double-sided design. Ashwood veneer MDF, oak brown matt finish. 4ft 6in, safe for kids, stylish for adults.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -1016,6 +1045,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h3>The most versatile furniture you will own.</h3>\n<p>Use them as footrests for movie night. Pull them out as extra seating when guests arrive unexpectedly. Slap a tray on top and transform them into instant coffee tables. These ottoman stools adapt to however you live, making them the hardest-working pieces in your home.</p>\n<h3>Built Solid, Not Hollow</h3>\n<p>Fully tufted on all sides in luxurious suede velvet. Unlike those hollow poufs that collapse the moment you sit down, these have a rigid internal frame that actually supports weight. You can sit, stand on them to reach high shelves, or let kids use them without worry.</p>\n<h3>Why Every Home Needs These</h3>\n<ul>\n<li>Multi-functional: footrest, seating, side table, or decorative accent</li>\n<li>Fully tufted suede velvet on all sides for 360° luxury</li>\n<li>Rigid internal frame—no sinking or collapsing</li>\n<li>Customizable fabric to match your existing décor</li>\n<li>Compact 18\" x 18\" footprint fits anywhere</li>\n<li>14\" height perfect for footrest or casual seating</li>\n<li>Sold as a pair for symmetry and flexibility</li>\n</ul>\n<p><em>The furniture equivalent of a Swiss Army knife.</em></p>",
       "specs": [],
       "specsText": "Multi-functional ottoman stools sold as pair. Fully tufted suede velvet, rigid frame, 18\"x18\"x14\". Use as footrests, seating, or side tables. Customizable fabric.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -1046,6 +1076,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h3>Geometric precision for the modern eye</h3>\n<p>The digitally printed geometric pattern adds visual complexity to your room without overwhelming the senses. But here's what really sets this apart: the high-back design at 20 inches offers superior neck and shoulder support compared to those trendy low-back sofas that look great in photos but leave you aching after an hour.</p>\n<h3>Designed for How You Actually Sit</h3>\n<p>Solid pinewood legs keep this piece grounded and stable. The armrests are positioned at a thoughtful 10 inches—perfect for resting a tablet, propping a book, or simply letting your arms relax naturally. This is furniture designed around real bodies, not just aesthetics.</p>\n<h3>Why Blue Velveteen Works</h3>\n<ul>\n<li>Digitally printed geometric pattern—modern and sophisticated</li>\n<li>20-inch high back for proper neck and shoulder support</li>\n<li>10-inch armrests at the ideal height for comfort and function</li>\n<li>Solid pinewood legs for stability and durability</li>\n<li>9-inch leg height for easy cleaning underneath</li>\n<li>Compact 4ft width fits smaller living spaces</li>\n<li>Ergonomic design that supports long sitting sessions</li>\n</ul>\n<p><em>Comfort and style aren't mutually exclusive.</em></p>",
       "specs": [],
       "specsText": "Modern 2-seater sofa with geometric pattern and 20-inch high back for superior support. Solid pinewood legs, 4ft width. Ergonomic design meets contemporary style.",
+      "materialsHtml": "",
       "featured": true,
       "images": [
         {
@@ -1082,6 +1113,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h3><strong>Inject sunshine into a dull room.</strong></h3>\n<p>If you have grey walls, white floors, or a space that feels a little too safe, this vibrant floral 2-seater is the dopamine hit your design desperately needs. It's cheerful, inviting, and impossible to ignore—the kind of piece that makes people smile when they walk into the room.</p>\n<h3>Compact Design, Full Comfort</h3>\n<p>At 5ft wide, this sofa is built for smaller urban apartments and cozy spaces without sacrificing seating. Two adults sit comfortably, supported by elegant golden finish pencil legs that add a touch of sophistication to the playful floral pattern.</p>\n<h3>Why Yellow Floral Transforms Spaces</h3>\n<ul>\n<li>Vibrant yellow floral pattern that energizes any room</li>\n<li>Perfect antidote to grey, beige, or neutral-heavy interiors</li>\n<li>Compact 5ft width fits urban apartments and tight spaces</li>\n<li>Full 2-seater capacity for comfortable adult seating</li>\n<li>Golden finish pencil legs add elegance without visual weight</li>\n<li>18-inch seat height for easy sitting and standing</li>\n<li>Mood-boosting design that sparks joy daily</li>\n</ul>\n<p><em>Because life's too short for boring furniture.</em></p>",
       "specs": [],
       "specsText": "Cheerful yellow floral 2-seater sofa, 5ft wide. Golden finish pencil legs, perfect for urban apartments. Vibrant pattern adds personality to neutral rooms.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -1118,6 +1150,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h3>Stop fearing patterns.</h3>\n<p>This 1.5-seater loveseat features exclusive designer fabric from @desenli.design that brings personality without overwhelming your space. It's the perfect size for a bedroom reading nook, a compact apartment living area, or anywhere a full sofa won't fit but a single chair feels too small.</p>\n<h3>Built to Last 15 Years. Literally.</h3>\n<p>We back this with a 15-year MoltyFoam warranty. That means the seat cushion will bounce back to its original shape every single time you stand up—for a decade and a half. No sagging, no flattening, no regrets. Paired with sleek gold pencil legs that add a touch of elegance without visual weight.</p>\n<h3>Why Desenli Works</h3>\n<ul>\n<li>Exclusive designer floral fabric from @desenli.design</li>\n<li>15-year MoltyFoam warranty—resilience you can trust</li>\n<li>Perfect 1.5-seater size for compact spaces</li>\n<li>Gold pencil legs add sophistication without bulk</li>\n<li>Ideal for bedrooms, studios, or cozy corners</li>\n<li>Pattern adds character without clashing with existing décor</li>\n</ul>\n<p><em>For spaces that deserve more than beige.</em></p>",
       "specs": [],
       "specsText": "Compact 1.5-seater loveseat with exclusive designer floral fabric. MoltyFoam with 15-year warranty, gold pencil legs. Perfect for small spaces and reading nooks.",
+      "materialsHtml": "",
       "featured": false,
       "images": [
         {
@@ -1171,6 +1204,7 @@ window.ROAATHAWRA_CATALOG = {
         }
       ],
       "specsText": "Bold single seater chair in textured black and white velvet. Solid wood frame, high-density foam, 2ft 6in wide. Statement accent chair for modern interiors.",
+      "materialsHtml": "<p><em>*Fabric can be customized</em></p><ul class=\"spec-list\"><li><strong>Dimensions:</strong> 2ft 6in (W) x 2ft 8in (D)</li><li><strong>Seat Height:</strong> 18in</li><li><strong>Frame:</strong> Solid Wood</li><li><strong>Fabric:</strong> Textured Black and White Velvet stain-resistant</li><li><strong>Cushioning:</strong> High-density foam layers</li></ul>",
       "featured": false,
       "images": [
         {
@@ -1218,6 +1252,7 @@ window.ROAATHAWRA_CATALOG = {
         }
       ],
       "specsText": "Plush single seater chair in imported blue suede velvet. Solid wood frame, high-density foam, 2ft 6in wide. Perfect reading chair for living rooms and bedrooms.",
+      "materialsHtml": "<p><em>*Fabric can be customized</em></p><ul class=\"spec-list\"><li><strong>Dimensions:</strong> 2ft 6in (W) x 2ft 8in (D)</li><li><strong>Seat Height:</strong> 18in</li><li><strong>Frame:</strong> Solid Wood</li><li><strong>Fabric:</strong> Imported Blue Suede Velvet cool to touch</li><li><strong>Cushioning:</strong> High-density foam</li></ul>",
       "featured": false,
       "images": [
         {
@@ -1254,6 +1289,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<h2>Old-money glamour meets new-money precision.</h2>\n<p>A modern reinterpretation of the classic Chesterfield. We kept the deep button tufting that gives you that executive, library-worthy aesthetic, but swapped bulky wooden feet for razor-sharp gold chrome legs. The result? A sofa that commands attention without feeling dated.</p>\n<h3>Craftsmanship That Lasts</h3>\n<p>The legs aren't just for show. CNC-cut from stainless steel with gold plating, they're engineered to stay pristine through Pakistan's humid monsoons—no rust, no corrosion, no compromise. The velvet upholstery is hand-tufted in a diamond pattern, pulled tight by skilled craftsmen, not machines. You can see the difference in every button.</p>\n<h3>Why Eleganza Stands Apart</h3>\n<ul>\n<li>Deep button tufting on back and sides for timeless sophistication</li>\n<li>Gold chrome stainless steel legs—rust-proof and monsoon-ready</li>\n<li>Hand-tufted diamond pattern, not machine-pressed</li>\n<li>18-inch seat height for comfortable, upright seating</li>\n<li>6ft width seats three adults comfortably</li>\n<li>Premium velvet upholstery that feels as luxurious as it looks</li>\n</ul>\n<p><em>Perfect for living rooms, executive offices, or luxury waiting areas.</em></p>",
       "specs": [],
       "specsText": "Luxury 3-seater sofa with deep button tufting and gold chrome stainless steel legs. Hand-tufted velvet, rust-proof construction. Modern Chesterfield design, 6ft width.",
+      "materialsHtml": "<p><em>*Fabric can be customized</em></p><ul class=\"spec-list\"><li><strong>Width:</strong> 6ft</li><li><strong>Seat Height:</strong> 18in</li><li><strong>Legs:</strong> Gold Chrome Stainless Steel CNC-cut</li><li><strong>Upholstery:</strong> Premium Velvet with hand-tufted diamond pattern</li><li><strong>Tufting:</strong> Deep button tufting on back and sides</li></ul>",
       "featured": false,
       "images": [
         {
@@ -1299,6 +1335,7 @@ window.ROAATHAWRA_CATALOG = {
         }
       ],
       "specsText": "Modern dresser with concrete-textured tactile finish. Features 3 deep drawers plus top cabinet with half-shutter. Industrial design, smart storage for bedrooms.",
+      "materialsHtml": "<ul class=\"spec-list\"><li><strong>Height:</strong> 2ft 6in (Table Top)</li><li><strong>Material:</strong> Concrete Textured Tactile MDF</li><li><strong>Storage:</strong> 3 deep drawers plus top cabinet with half-shutter</li><li><strong>Function:</strong> Specialized for clothing and daily ritual organization</li></ul>",
       "featured": false,
       "images": [
         {
@@ -1353,6 +1390,7 @@ window.ROAATHAWRA_CATALOG = {
         }
       ],
       "specsText": "Elegant white enamel canopy bed crafted from solid pinewood. Four-poster single bed (3ft x 6ft 6in) with side tables. Timeless design that grows from childhood to teens.",
+      "materialsHtml": "<ul class=\"spec-list\"><li><strong>Size:</strong> 3ft x 6ft 6in (Single)</li><li><strong>Material:</strong> Solid Pinewood frame</li><li><strong>Finish:</strong> Pristine White Enamel</li><li><strong>Structure:</strong> Four-poster columns for canopy draping</li><li><strong>Inclusions:</strong> Bed frame and 2 minimalist side tables</li></ul>",
       "featured": true,
       "images": [
         {
@@ -1406,6 +1444,7 @@ window.ROAATHAWRA_CATALOG = {
         }
       ],
       "specsText": "Luxury king bed featuring a geometric CNC-cut square pattern headboard with integrated floating side tables. 8ft wide headboard, solid construction, no separate nightstands needed.",
+      "materialsHtml": "<ul class=\"spec-list\"><li><strong>Mattress Size:</strong> King (6ft x 6ft 6in)</li><li><strong>Headboard:</strong> 8ft (W) x 4ft (H)</li><li><strong>Material:</strong> CNC Patterned Wood Work</li><li><strong>Storage:</strong> Integrated floating side tables with single flush drawers</li><li><strong>Frame:</strong> 8in deep solid box frame</li></ul>",
       "featured": false,
       "images": [
         {
@@ -1453,6 +1492,7 @@ window.ROAATHAWRA_CATALOG = {
         }
       ],
       "specsText": "Elevate your bedroom with The Zahara Bed. Features a curved Charcoal Grey Bouclé headboard, Ashwood Veneer frame with Charcoal Polish, and low-profile design. King size (6ft x 6ft 6in).",
+      "materialsHtml": "<ul class=\"spec-list\"><li><strong>Mattress Size:</strong> King (6ft x 6ft 6in)</li><li><strong>Headboard:</strong> Curved 12ft (W) x 4ft (H)</li><li><strong>Materials:</strong> Ashwood Veneer and Charcoal Grey Bouclé Fabric</li><li><strong>Finish:</strong> Charcoal Polish contrast</li><li><strong>Profile:</strong> Low-profile design for perceived ceiling height</li></ul>",
       "featured": false,
       "images": [
         {
@@ -1484,6 +1524,7 @@ window.ROAATHAWRA_CATALOG = {
       "bodyHtml": "<p><strong>The Build:</strong> Solid pinewood core with an oak veneer MDF top. Finished in a deep dark brown polish.</p>\n<p><strong>Why It Works:</strong> The beveled edges and angled legs give it a mid-century modern profile that fits both formal dinners and daily work-from-home use.</p>",
       "specs": [],
       "specsText": "6-seater dining table with solid pinewood core and oak veneer. Mid-century modern design with beveled edges and angled legs. Made in Pakistan.",
+      "materialsHtml": "<ul class=\"spec-list\"><li><strong>Materials:</strong> Solid Pinewood core with Oak Veneer MDF top</li><li><strong>Legs:</strong> Angled and curved mid-century profile</li><li><strong>Edges:</strong> Tapered and beveled precision</li><li><strong>Finish:</strong> Deep Dark Brown Polish</li></ul>",
       "featured": false,
       "images": [
         {
@@ -1519,6 +1560,7 @@ window.ROAATHAWRA_CATALOG = {
         }
       ],
       "specsText": "Durable 3-seater sofa with premium Bouclé fabric and solid wood frame. Deep seating, spill-resistant, textured design. Made in Pakistan.",
+      "materialsHtml": "<ul class=\"spec-list\"><li><strong>Capacity:</strong> 3-Seater</li><li><strong>Frame:</strong> Heavy-duty solid wood internal frame</li><li><strong>Material:</strong> Premium textured spill-resistant Bouclé</li><li><strong>Inclusions:</strong> Custom accent cushions</li></ul>",
       "featured": false,
       "images": [
         {
@@ -1566,6 +1608,7 @@ window.ROAATHAWRA_CATALOG = {
         }
       ],
       "specsText": "Premium king size bed with 12ft statement headboard. Solid ashwood veneer, dark oak matte finish. Low-profile floating design. Made in Pakistan.",
+      "materialsHtml": "<ul class=\"spec-list\"><li><strong>Mattress Size:</strong> King (6ft x 6.5ft)</li><li><strong>Headboard:</strong> 12ft (W) x 4ft (H) extended statement</li><li><strong>Material:</strong> Solid Ashwood Veneer and reinforced Pinewood frame</li><li><strong>Finish:</strong> Dark Oak Matte</li><li><strong>Design:</strong> Floating structure integrated with side tables</li></ul>",
       "featured": false,
       "images": [
         {

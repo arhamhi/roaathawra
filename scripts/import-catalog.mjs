@@ -92,6 +92,54 @@ const SPEC_COLUMNS = [
   ['Recommended age group (product.metafields.shopify.recommended-age-group)', 'Age group'],
 ];
 
+function escapeBasic(value) {
+  return String(value == null ? '' : value)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+// Convert a Shopify rich_text metafield (JSON) to safe allow-listed HTML.
+function richTextToHtml(raw) {
+  let doc;
+  try { doc = typeof raw === 'string' ? JSON.parse(raw) : raw; } catch { return ''; }
+  function render(node) {
+    if (!node) return '';
+    if (node.type === 'text') {
+      let t = escapeBasic(node.value || '');
+      if (node.bold) t = `<strong>${t}</strong>`;
+      if (node.italic) t = `<em>${t}</em>`;
+      return t;
+    }
+    const inner = (node.children || []).map(render).join('');
+    switch (node.type) {
+      case 'root': return inner;
+      case 'paragraph': return `<p>${inner}</p>`;
+      case 'list': return `<${node.listType === 'ordered' ? 'ol' : 'ul'} class="spec-list">${inner}</${node.listType === 'ordered' ? 'ol' : 'ul'}>`;
+      case 'list-item': return `<li>${inner}</li>`;
+      case 'heading': return `<h3>${inner}</h3>`;
+      default: return inner;
+    }
+  }
+  return render(doc).trim();
+}
+
+// Load custom.materials_and_specifications (rich text) per handle from an
+// optional Matrixify products export with metafields.
+async function loadMaterialsMap() {
+  const csvFile = path.join(sourceRoot, 'products_metafields.csv');
+  if (!(await fileExists(csvFile))) return new Map();
+  const text = await fs.readFile(csvFile, 'utf8');
+  const rows = parse(text, { columns: true, bom: true, skip_empty_lines: true, relax_quotes: true, relax_column_count: true });
+  const col = 'Metafield: custom.materials_and_specifications [rich_text_field]';
+  const map = new Map();
+  for (const row of rows) {
+    if (row.Handle && row[col] && row[col].trim() && !map.has(row.Handle)) {
+      const html = richTextToHtml(row[col]);
+      if (html) map.set(row.Handle, html);
+    }
+  }
+  return map;
+}
+
 function specsFor(row) {
   const specs = [];
   for (const [column, label] of SPEC_COLUMNS) {
@@ -364,9 +412,10 @@ async function main() {
     await ensureCleanDir(videoOutDir);
   }
 
-  const [csvText, localMap] = await Promise.all([
+  const [csvText, localMap, materialsMap] = await Promise.all([
     fs.readFile(csvPath, 'utf8'),
     localImageMap(),
+    loadMaterialsMap(),
   ]);
 
   const rows = parse(csvText, {
@@ -444,6 +493,7 @@ async function main() {
       bodyHtml: sanitizeRichHtml(main['Body (HTML)']),
       specs: specsFor(main),
       specsText: stripHtml(main['SEO Description'] || ''),
+      materialsHtml: materialsMap.get(handle) || '',
       featured: featuredHandles.has(handle),
       images,
     });
