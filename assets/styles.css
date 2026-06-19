@@ -330,6 +330,7 @@ p{margin:0;}
    ============================================================ */
 @media (max-width:1024px){
   .masonry{columns:2;}
+  .catalog-limited [data-product-grid]{max-height:1620px;}
 }
 @media (max-width:860px){
   .section{padding:72px 22px;}
@@ -354,6 +355,7 @@ p{margin:0;}
 }
 @media (max-width:560px){
   .masonry{columns:1;}
+  .catalog-limited [data-product-grid]{max-height:1240px;}
   .featured-track{margin-left:-22px;margin-right:-22px;padding-left:22px;padding-right:22px;scroll-padding:22px;}
   .hero{height:88vh;min-height:520px;}
   .hero h1{font-size:48px;}
@@ -376,11 +378,11 @@ p{margin:0;}
 /* ============================================================
    Catalog reveal, product galleries, and scroll utilities
    ============================================================ */
-.catalog-reveal{display:none;position:sticky;bottom:24px;z-index:8;justify-content:center;margin:-190px auto 76px;padding:130px 24px 20px;pointer-events:none;background:linear-gradient(to bottom,rgba(247,244,236,0),var(--surface) 72%);}
+.catalog-limited [data-product-grid]{max-height:1500px;overflow:hidden;-webkit-mask-image:linear-gradient(to bottom,#000 72%,transparent 100%);mask-image:linear-gradient(to bottom,#000 72%,transparent 100%);}
+.catalog-expanded [data-product-grid]{max-height:none;-webkit-mask-image:none;mask-image:none;overflow:visible;}
+.catalog-reveal{display:none;justify-content:center;margin:-72px auto 60px;position:relative;z-index:8;pointer-events:none;}
 .catalog-limited .catalog-reveal{display:flex;}
 .catalog-reveal-btn{pointer-events:auto;box-shadow:0 18px 38px rgba(28,24,20,.22);}
-.product-card.is-catalog-blurred{filter:blur(3px);opacity:.42;pointer-events:none;user-select:none;transform:scale(.992);}
-.product-card.is-catalog-blurred .product-media{background:var(--cream-soft);}
 .product-carousel{position:relative;isolation:isolate;cursor:zoom-in;}
 .product-carousel > .carousel-slide,.carousel-slide{display:block;width:100%;height:100%;}
 .carousel-track{display:flex;width:100%;height:100%;transition:transform .46s cubic-bezier(.16,1,.3,1);will-change:transform;}
@@ -395,14 +397,14 @@ p{margin:0;}
 .carousel-dots{position:absolute;left:50%;bottom:12px;display:flex;gap:7px;align-items:center;justify-content:center;padding:7px 9px;border-radius:999px;background:color-mix(in oklch,var(--ink) 54%,transparent);transform:translateX(-50%);}
 .carousel-dot{width:7px;height:7px;border:0;border-radius:50%;background:color-mix(in oklch,var(--cream) 56%,transparent);padding:0;cursor:pointer;transition:transform .22s ease,background .22s ease;}
 .carousel-dot.is-active{background:var(--gold);transform:scale(1.32);}
-.top-pop{position:fixed;right:24px;bottom:94px;z-index:62;width:48px;height:48px;border:1px solid color-mix(in oklch,var(--cream) 48%,transparent);border-radius:50%;background:var(--ink);color:var(--cream);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px rgba(28,24,20,.25);opacity:0;pointer-events:none;transform:translateY(14px);transition:opacity .24s ease,transform .24s ease,background .24s ease;}
+.top-pop{position:fixed;left:24px;right:auto;bottom:24px;z-index:62;width:42px;height:42px;border:1px solid color-mix(in oklch,var(--gold-brown) 30%,transparent);border-radius:50%;background:color-mix(in oklch,var(--surface) 84%,transparent);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);color:var(--gold-brown);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 16px rgba(28,24,20,.12);opacity:0;pointer-events:none;transform:translateY(14px);transition:opacity .24s ease,transform .24s ease,background .24s ease,color .24s ease,border-color .24s ease;}
 .top-pop.is-visible{opacity:1;pointer-events:auto;transform:translateY(0);}
-.top-pop:hover{background:var(--gold);color:var(--ink);}
+.top-pop:hover{background:color-mix(in oklch,var(--surface) 94%,transparent);color:var(--ink);border-color:color-mix(in oklch,var(--ink) 24%,transparent);}
 .btn:focus-visible,.chip:focus-visible,.carousel-btn:focus-visible,.carousel-dot:focus-visible,.top-pop:focus-visible,.fab:focus-visible,a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;}
 @media (max-width:560px){
-  .catalog-reveal{bottom:18px;margin-top:-150px;padding-top:106px;}
+  .catalog-reveal{margin-top:-60px;}
   .carousel-btn{width:42px;height:42px;}
-  .top-pop{right:22px;bottom:92px;width:48px;height:48px;}
+  .top-pop{left:18px;right:auto;bottom:18px;}
   .feature picture{height:min(72vh,620px);}
   .feature-photo{object-position:center top;}
 }

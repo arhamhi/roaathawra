@@ -103,10 +103,6 @@
     var reveal = root.querySelector('[data-catalog-reveal]');
     var button = root.querySelector('[data-view-all-products]');
 
-    cards.forEach(function (card, index) {
-      card.classList.toggle('is-catalog-blurred', shouldLimit && index >= catalogPreviewLimit);
-    });
-
     root.classList.toggle('catalog-limited', shouldLimit);
     root.classList.toggle('catalog-expanded', catalogExpanded);
     if (reveal) reveal.hidden = !shouldLimit;
@@ -275,9 +271,11 @@
       ticking = true;
       requestAnimationFrame(update);
     }, { passive: true });
+    var collection = document.getElementById('collection');
     buttons.forEach(function (button) {
       button.addEventListener('click', function () {
-        window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+        var top = collection ? collection.getBoundingClientRect().top + window.scrollY - 12 : 0;
+        window.scrollTo({ top: Math.max(top, 0), behavior: reduce ? 'auto' : 'smooth' });
       });
     });
     update();
