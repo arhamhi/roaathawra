@@ -333,6 +333,7 @@ async function main() {
   const brand = {
     homeAbout: await convertResponsiveImage(path.join(sourceMediaDir, 'roaa.png'), brandOutDir, 'roaa-studio', 'Roaathawra studio interior'),
     aboutHero: await convertResponsiveImage(path.join(sourceMediaDir, 'roaa b&w landscape.png'), brandOutDir, 'roaa-about-landscape', 'Roaathawra black and white room scene'),
+    aboutHeroMobile: await convertResponsiveImage(path.join(sourceMediaDir, 'roaa b&w portrait.png'), brandOutDir, 'roaa-about-portrait', 'Roaathawra founder portrait'),
     aboutTeam: await convertResponsiveImage(path.join(sourceMediaDir, 'roaa room 3.png'), brandOutDir, 'roaa-room-scene', 'Roaathawra crafted room scene'),
   };
 
