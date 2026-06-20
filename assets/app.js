@@ -10,6 +10,7 @@
   var CATALOG = window.ROAATHAWRA_CATALOG || { products: [], filters: [], brand: {}, video: {} };
   var PRODUCTS = CATALOG.products || [];
   var IG_DM = 'https://ig.me/m/roaathawra';
+  var IG_PAGE = 'https://www.instagram.com/roaathawra/';
   var WA = '923208572698';
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -71,7 +72,7 @@
             '<button class="icon-btn" data-open-search aria-label="Search">' + ICON.search + '</button>' +
           '</div>' +
           '<a class="header-brand" href="' + b + 'index.html">Roaathawra</a>' +
-          '<div class="header-right"><a class="icon-btn" href="' + IG_DM + '" target="_blank" rel="noopener" aria-label="Instagram">' + ICON.insta + '</a></div>' +
+          '<div class="header-right"><a class="icon-btn" href="' + IG_PAGE + '" target="_blank" rel="noopener" aria-label="Instagram">' + ICON.insta + '</a></div>' +
         '</div>' +
         '<nav class="header-nav only-desktop">' + navLinks + '</nav>' +
       '</header>';
@@ -85,7 +86,7 @@
       '<aside class="drawer" data-drawer aria-label="Menu">' +
         '<div class="drawer-head"><span>Menu</span><button class="icon-btn" data-close-drawer aria-label="Close menu">' + ICON.close + '</button></div>' +
         '<nav class="drawer-nav">' + drawerLinks + '</nav>' +
-        '<div class="drawer-foot"><a href="' + IG_DM + '" target="_blank" rel="noopener">Instagram</a><a href="https://wa.me/' + WA + '" target="_blank" rel="noopener">WhatsApp</a></div>' +
+        '<div class="drawer-foot"><a href="' + IG_PAGE + '" target="_blank" rel="noopener">Instagram</a><a href="https://wa.me/' + WA + '" target="_blank" rel="noopener">WhatsApp</a></div>' +
       '</aside>';
     var search =
       '<div class="search-overlay" data-search><div class="search-top">' + ICON.search +
@@ -129,7 +130,7 @@
       '<footer class="site-footer"><div class="page"><div class="footer-grid">' +
         '<div><div class="brand">Roaathawra</div><p style="margin-top:14px;max-width:34ch;color:#b9b4aa">Contemporary, made-to-order furniture handcrafted in Pakistan. Less is more.</p></div>' +
         '<div><h4>Shop</h4><a href="' + b + 'shop.html">All furniture</a>' + cats.map(function (f) { return '<a href="' + b + 'shop.html?cat=' + f[0] + '">' + esc(f[1]) + '</a>'; }).join('') + '</div>' +
-        '<div><h4>Connect</h4><a href="' + b + 'about.html">About us</a><a href="' + IG_DM + '" target="_blank" rel="noopener">Instagram</a><a href="https://wa.me/' + WA + '" target="_blank" rel="noopener">WhatsApp</a></div>' +
+        '<div><h4>Connect</h4><a href="' + b + 'about.html">About us</a><a href="' + IG_PAGE + '" target="_blank" rel="noopener">Instagram</a><a href="https://wa.me/' + WA + '" target="_blank" rel="noopener">WhatsApp</a></div>' +
       '</div><div class="footer-bottom"><span>&copy; ' + new Date().getFullYear() + ' Roaathawra. The Revolution of Imagination.</span><span>Made to order &middot; DM to order</span></div></div></footer>' +
       '<a class="fab" href="' + IG_DM + '" target="_blank" rel="noopener" aria-label="DM on Instagram">' + ICON.insta + '</a>';
   }
